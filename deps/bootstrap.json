@@ -1,10 +1,74 @@
 [
 {
+    "name": "zlib",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/madler/zlib.git",
+        "revision": "v1.2.12"
+    }
+},
+{
+    "name": "openal",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/kcat/openal-soft.git",
+        "revision": "1.21.1"
+    }
+},
+{
+    "name": "harfbuzz",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/harfbuzz/harfbuzz.git",
+        "revision": "4.2.0"
+    }
+},
+{
     "name": "meshoptimizer",
     "source": {
         "type": "git",
         "url": "https://github.com/zeux/meshoptimizer",
         "revision": "v0.17"
+    }
+},
+{
+    "name": "glew",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/Perlmint/glew-cmake.git",
+        "revision": "glew-cmake-2.2.0"
+    }
+},
+{
+    "name": "glfw",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/glfw/glfw.git",
+        "revision": "3.3.4"
+    }
+},
+{
+    "name": "freetype",
+    "source": {
+        "type": "git",
+	"url": "https://github.com/freetype/freetype.git",
+	"revision": "VER-2-12-0"
+    }
+},
+{
+    "name": "ogg",
+    "source": {
+        "type": "git",
+	"url": "https://github.com/xiph/ogg.git",
+	"revision": "v1.3.5"
+    }
+},
+{
+    "name": "vorbis",
+    "source": {
+        "type": "git",
+	"url": "https://github.com/xiph/vorbis.git",
+	"revision": "v1.3.7"
     }
 }
 ]

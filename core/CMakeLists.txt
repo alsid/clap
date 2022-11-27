@@ -45,12 +45,12 @@ if ((${CMAKE_SYSTEM_NAME} MATCHES "Emscripten"))
     set(CMAKE_EXECUTABLE_SUFFIX ".html")
 else ()
     set(OpenGL_GL_PREFERENCE "LEGACY")
-    find_package(glfw3)
-    find_package(GLEW)
-    find_package(OpenGL)
-    find_package(PNG)
-    find_package(Freetype)
-    find_package(OpenAL)
+    #find_package(glfw3)
+    #find_package(GLEW)
+    #find_package(OpenGL)
+    #find_package(PNG)
+    #find_package(Freetype)
+    #find_package(OpenAL)
     find_library(VORBISFILE_LIBRARY
         NAMES vorbisfile VorbisFile VORBISFILE
         PATHS
@@ -62,7 +62,7 @@ else ()
         PATH_SUFFIXES
             lib
     )
-    set(GLEW_LIBRARIES GLEW::GLEW)
+    #set(GLEW_LIBRARIES GLEW::GLEW)
     set(EXTRA_LIBRARIES m pthread stdc++)
     set(PLATFORM_SRC display-glfw.c)
 endif ()
